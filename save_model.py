@@ -28,5 +28,3 @@ with open('vectorizer.pkl', 'wb') as f:
     pickle.dump(vectorizer, f)
 with open('label_encoder.pkl', 'wb') as f:
     pickle.dump(le, f)
-with open('status_labels.pkl', 'wb') as f:
-    pickle.dump(status_labels, f)
